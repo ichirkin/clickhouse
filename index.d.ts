@@ -1,7 +1,7 @@
 /// <reference types="node" />
 
-declare module 'clickhouse' {
-  import {Stream} from 'stream';
+declare module "@ichirkin/clickhouse" {
+  import { Stream } from "stream";
 
   type callbackExec = (error: Error, rows?: Object[]) => void;
 
