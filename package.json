@@ -21,5 +21,5 @@
   "scripts": {
     "test": "mocha --bail --timeout 60000 --slow 5000"
   },
-  "version": "2.6.0"
+  "version": "2.6.1"
 }
