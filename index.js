@@ -552,7 +552,7 @@ class QueryCursor {
 					if (data && Array.isArray(data) && data.every(d => typeof d === 'string')) {
 						params['body'] = me._getBodyForInsert();
 					}
-				} else {
+				} else if (!query.match(/format/i)) {
 					query += ' FORMAT TabSeparated';
 
 					if (data) {
